@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  background-color: gainsboro;
+}
+
+/* HEADER */
+body > div  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+body > div > nav {
+    padding-top: 0.5rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+body > div > nav > ul > li:nth-child(2),
+body > div > nav > ul > li:nth-child(1) {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+body > div > nav > ul > li:nth-child(3) {
+    padding-left: 0.5rem;
+}
+
+body > div > nav > p {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    padding-top: 1.5rem;
+}
+
+/* HEADER */
+
+body > header > div.boxeur > img {
+    width:100%
+}
+
+.ranger-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ranger-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gants {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+body > header > div.gants > div.ranger-1 > div.gant.de.boxe.\32,
+body > header > div.gants > div.ranger-1 > div.gant.de.boxe.\31 ,
+body > header > div.gants > div.ranger-2 > div.gant.de.boxe.\33 ,
+body > header > div.gants > div.ranger-2 > div.gant.de.boxe.\34 
+ {
+    padding: 35px;
+}
+
+body > div.menu > ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    background-color: white;
+    border-radius: 15px;
+    width: 40%;
+}
+
+body > div.menu > ol > li {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
